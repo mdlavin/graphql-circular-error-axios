@@ -1,0 +1,25 @@
+{
+  "name": "graphql-circular-error-axios",
+  "version": "1.0.0",
+  "description": "A standalone example of how Apollo server throws 500 on Errors with circular references",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "author": "Matt Lavin <matt.lavin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.3.4",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "apollo-server-express": "^2.5.0",
+    "axios": "^0.18.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.0",
+    "node-fetch": "^2.6.0",
+    "prettier": "^1.17.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
